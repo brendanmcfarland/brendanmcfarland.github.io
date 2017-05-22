@@ -11,7 +11,7 @@ why wouldn't it?
 
 ## Author
 
-Some fun facts about the setup of brendan include
+Some fun facts about the setup of brendan include:
 
 * terrible fantasy football manager
 * DC sports fan
@@ -25,6 +25,8 @@ Some fun facts about the setup of brendan include
 * reverse engineer
 
 
-Have questions or suggestions? Feel free to [see if i remember my twitter password](https://twitter.com/brendanmcfarlan).
+Have questions or suggestions?
+
+Feel free to [see if i remember my twitter password](https://twitter.com/brendanmcfarlan).
 
 >keep striving!
