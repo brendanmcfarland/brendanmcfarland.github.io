@@ -1,77 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+---
+layout: default
+---
 
-    <title>Cover Template for Bootstrap</title>
+ <div class="container docs-container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="sidebar hidden-print" role="complementary">
+            <div id="navigation">
+              <h1>目录</h1>
+              <ul class="nav sidenav">
 
-    <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+                {% for post in site.posts  %}
+                  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+                  {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+                  {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+                  {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+                  {% if forloop.first %}
+                    <li><a href="#year_{{this_year}}">{{this_year}}</a>
+                      <ul class="nav">
+                        <li><a href="#month_{{this_year}}_{{this_month}}">{{this_month}}</a></li>
+                  {% endif %}
 
-    <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">the league</h3>
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li><a href="/about">history</a></li>
-                  <li><a href="/stats">dashboard</a></li>
-                  <li><a href="/managers">managers</a></li>
-                </ul>
-              </nav>
+                  {% if forloop.last %}
+                        </ul>
+                      </li>
+                  {% else %}
+                    {% if this_year != next_year %}
+                        </ul>
+                      </li>
+                      <li><a href="#year_{{next_year}}">{{next_year}}</a>
+                        <ul class="nav">
+                          <li><a href="#month_{{next_year}}_{{next_month}}">{{next_month}}</a></li>
+                    {% else %}    
+                      {% if this_month != next_month %}
+                          <li><a href="#month_{{next_year}}_{{next_month}}">{{next_month}}</a></li>
+                      {% endif %}
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+              </ul>
             </div>
           </div>
+        </div>
+        <div class="col-md-9" role="main">
+          <div class="panel docs-content">
+            <div class="wrapper">
+              <div class="home">
+                {% for post in site.posts  %}
+                  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+                  {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+                  {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+                  {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 
-          <div class="inner cover">
-            <h1 class="cover-heading">18 years of tradition</h1>
-            <p class="lead">Started with one simple goal <br>Find something to do in 8th grade homeroom.</p>
-            <p class="lead">
-              <a href="/about" class="btn btn-lg btn-default">Read on</a>
-            </p>
+                  {% if forloop.first %}
+                    <h1 id="year_{{this_year}}">{{this_year}}</h1>
+                    <h2 id="month_{{this_year}}_{{this_month}}">{{this_month}}</h2>
+                    <ul>
+                  {% endif %}
+
+                  <ol class="breadcrumb">
+                   <li><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo; <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+                  </ol>
+                  {% if forloop.last %}
+                    </ul>
+                  {% else %}
+                    {% if this_year != next_year %}
+                      </ul>
+                      <h1 id="year_{{next_year}}">{{next_year}}</h1>
+                      <h2 id="month_{{next_year}}_{{next_month}}">{{next_month}}</h2>
+                      <ul>
+                    {% else %}    
+                      {% if this_month != next_month %}
+                        </ul>
+                        <h2 id="month_{{next_year}}_{{next_month}}">{{next_month}}</h2>
+                        <ul>
+                      {% endif %}
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </div>
           </div>
         </div>
-
       </div>
-
     </div>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
-</html>
