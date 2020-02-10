@@ -13,7 +13,7 @@ To share some personal musings / experiences on life and hobby projects. I'm a b
 
 Relevant timeline of experience these days is...
 
-```physics undergrad -> paralegal -> accounting grad school -> gov. consulting -> 2nd finance hire @ mapbox -> platform cost engineering @ mapbox```
+```physics undergrad -> paralegal -> accounting grad school -> gov. consulting -> 2nd finance hire @ mapbox -> platform engineering @ mapbox -> head of finance @ mapbox -> cloud ops engineering @ datadog```
 
 ## Hobby's 
 
@@ -22,7 +22,7 @@ Including but not limited to:
  	- 2015 Gay Bowl 2nd place on the DC Admirals
  	- 2017 Gay Bowl 3rd place on the DC Admirals
  - Coding - it can be work and a hobby
- - Board Games - still waiting for Gloomhaven to be delivered.
+ - Board Games - gloomhaven was cool, lots of other games too.
  - Fantasy Football Commissioner - 19 years and running...
  - Video games
  - Fishing - in progress

@@ -6,7 +6,7 @@ permalink:           pretty
 # Setup
 title:               strive.space
 tagline:             'effort'
-description:         'blogging the strive'
+description:         'it's fun to strive'
 url:                 strive.space
 baseurl:             ''
 gems: [jekyll-paginate]
@@ -20,4 +20,4 @@ author:
   email:             brendanm@gmail.com
 
 # Custom vars
-version:             1.0.0
+version:             1.0.1
