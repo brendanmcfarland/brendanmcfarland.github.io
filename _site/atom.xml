@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>strive.space</title>
- <link href="strive.space/atom.xml" rel="self"/>
- <link href="strive.space/"/>
- <updated>2017-05-22T00:06:57-04:00</updated>
- <id>strive.space</id>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2020-02-11T09:02:21-05:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>brendanmcfarland</name>
    <email>brendanm@gmail.com</email>
@@ -13,14 +13,20 @@
 
  
  <entry>
+   <title>We're back!</title>
+   <link href="http://localhost:4000/2020/02/07/back-at-it/"/>
+   <updated>2020-02-07T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2020/02/07/back-at-it</id>
+   <content type="html">&lt;p&gt;Updated bio again and have a plan for the next series of blogs. Made a 2020 resolution to pick up a “creative” project or two on the side this year.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Building out a Site</title>
-   <link href="strive.space/2017/05/21/strive-space/"/>
-   <updated>2017-05-21T00:00:00-04:00</updated>
-   <id>strive.space/2017/05/21/strive-space</id>
-   <content type="html">&lt;h3 id=&quot;welcome&quot;&gt;Welcome&lt;/h3&gt;
-
-&lt;p&gt;a commit with the new domain. sure is easy to create typos in markdown&lt;/p&gt;
-
+   <link href="http://localhost:4000/2018/01/02/content-time/"/>
+   <updated>2018-01-02T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2018/01/02/content-time</id>
+   <content type="html">&lt;p&gt;Updated bio today and hoping to get some blog posts up in 2018.&lt;/p&gt;
 </content>
  </entry>
  

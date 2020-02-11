@@ -5,7 +5,11 @@ title: The NHL DFS Project
 
 ## The plan
 
- You make money in daily fantasy sports by beating other players by more than you pay to the providers. We'll aim to find contests with the smallest provider fees (highest expected value) and the worst players (easiest field). If we do that; we've got a chance at not losing our money. Along the way we'll blog our adventures in learning about how the daily fantasy sports providers operate; how bad the rake is; and how good (or bad) the typical players are. It's a clear bonus I'm a hockey fan - so it should make it a bit less of a slog to bid day in and out. Key caveat I don't expect to be anything but average at creating fantasy lineups to compete. 
+`Winnings v. other players - Provider fees = Gain (or loss)`
+
+You make money in daily fantasy sports by beating other players by more than you pay to the providers. We'll aim to find contests with the smallest provider fees (highest expected value) and the worst players (easiest field). 
+
+If we do that; we've got a chance at not losing our money. The goal is to be average at daily fantasy but the best at identifying advantages contests. Along the way we'll blog our adventures in learning about how the daily fantasy sports providers operate; how bad the rake is; and how good (or bad) the typical players are. I'm a hockey fan, so it should make it a bit less of a slog to bid day in and out.
 
 ## Current progress
 Stay tuned!
@@ -21,7 +25,7 @@ Stay tuned!
 # THE APPENDIX
 
 <p class="message">
-  What's NHL DFS?
+  What is NHL DFS?
 </p>
 
 NHL - is the national hockey league. DFS is daily fantasy sports. Chances are you're familiar with the national sports leagues in the US, and the sport of hockey. If not give wikipedia a shout and then head back here. DFS needs a longer explanation.
