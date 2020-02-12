@@ -4,13 +4,28 @@
  <title>strive.space</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-02-11T09:02:21-05:00</updated>
+ <updated>2020-02-11T19:18:08-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>brendanmcfarland</name>
    <email>brendanm@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>New Experiment - NHL DFS</title>
+   <link href="http://localhost:4000/2020/02/11/new-experiment/"/>
+   <updated>2020-02-11T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2020/02/11/new-experiment</id>
+   <content type="html">&lt;p&gt;I’ve been a lifelong hockey fan, played fantasy sports for 20+ years, and have been curious about the realm of daily fantasy sports providers ever since the industry received press when their employees were fixing bets &lt;a href=&quot;https://www.nytimes.com/2015/10/06/sports/fanduel-draftkings-fantasy-employees-bet-rivals.html&quot;&gt;against their own customers&lt;/a&gt;. I’m excited for my first experiment this year.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;I’m taking a few months to dive into NHL daily fantasy hockey. The idea is to play with a small amount of money and apply maths to the contests, players, and nhl to attempt to find out something interesting about the market. I picked hockey because my theory is it’s a small pond that’s either much easier, or much harder, than the cash cow fantasy sports. I’ll log the contests entered, players faced, results, trends in contests draftkings makes available; and just generally ask questions and look for interesting wrinkles.&lt;/p&gt;
+
+&lt;p&gt;I’m keeping a summary of the project in the &lt;a href=&quot;http://strive.space/nhldfs/&quot;&gt;sidebar&lt;/a&gt; and have a plan to blog weekly on progress.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>We're back!</title>

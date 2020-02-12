@@ -7,7 +7,7 @@ title: About
   Why's this site exist?
 </p>
 
-To share some personal musings / experiences on life and hobby projects. I'm a big believer in life being about the effort/experiences along the way, hence the name strive.space
+To share some personal musings / experiences on life and hobby projects. I'm a big believer in the most interesting part of stories being the effort.
 
 ## Author
 
@@ -19,16 +19,20 @@ Relevant timeline of experience these days is...
 
 Including but not limited to:
  - Flag Football - competed nationally in [gaybowl](http://gaybowl.org/) since 2011.
- 	- 2015 Gay Bowl 2nd place on the DC Admirals
- 	- 2017 Gay Bowl 3rd place on the DC Admirals
+     - 2015 Gay Bowl 2nd place on the DC Admirals
+     - 2017 Gay Bowl 3rd place on the DC Admirals
  - Coding - it can be work and a hobby
  - Board Games - gloomhaven was cool, lots of other games too.
  - Fantasy Football Commissioner - 19 years and running...
- - Video games
- - Fishing - in progress
+ - Video games - football manager 2020 is killing me. 
+ - Fishing - blocked.
  - Puzzles - the 2d ones with all the pieces
 
-## Talks
+## Conference / Speaking things
+
+### AWS Developer Influencer Summit - 2019
+
+Was invited to sit on the containers panel. I got a cool mug and gave opinions on the roadmaps for containers teams. Really cool event.
 
 ### AWS re:Invent - 2017
 

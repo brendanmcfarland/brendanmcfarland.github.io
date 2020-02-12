@@ -5,24 +5,29 @@ title: The NHL DFS Project
 
 ## The plan
 
+Daily fantasy sports is big money in the US. Draftkings is headed for an IPO - with 192m in revenue in the first 9 months of 2019; before the NFL had started. I'm curious how daily fantasy plays out in the smaller sports; and as a hockey fan have a plan to find out if there's reliable advantages to be found in the world of daily fantasy hockey betting.
+
+
+## Measuring Success
+
 `Winnings v. other players - Provider fees = Gain (or loss)`
 
-You make money in daily fantasy sports by beating other players by more than you pay to the providers. We'll aim to find contests with the smallest provider fees (highest expected value) and the worst players (easiest field). 
+You make money in daily fantasy sports by beating other players by more than you pay to the fantasy sport provider. In the experiment we'll aim to find contests with the smallest provider fees (highest expected value) and the worst players (easiest field). 
 
-If we do that; we've got a chance at not losing our money. The goal is to be average at daily fantasy but the best at identifying advantages contests. Along the way we'll blog our adventures in learning about how the daily fantasy sports providers operate; how bad the rake is; and how good (or bad) the typical players are. I'm a hockey fan, so it should make it a bit less of a slog to bid day in and out.
+If we do that; we've got a chance at not losing our money before I write enough interesting blog posts. The goal is to be average at daily fantasy; but the best at identifying more lucrative contests. Along the way I'll blog our adventures in learning about how the daily fantasy sports providers operate; how quick the fees cut into winnings, how good (or bad) the typical players are, how draftkings gamifies gambling to encourage more betting. Maybe even some recap of actual hockey players performances and their impact on the daily fantasy market.
 
 ## Current progress
-Stay tuned!
+
+![]()
+
+- Week 1 Recap: 2/5 - 2/12
 
 
-## The blogs!
-Stay tuned!
+## The blogs
+- _stay tuned_
 
 
-## End result
-Stay tuned!
-
-# THE APPENDIX
+# APPENDIX
 
 <p class="message">
   What is NHL DFS?
